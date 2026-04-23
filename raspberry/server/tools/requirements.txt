@@ -1,0 +1,3 @@
+# Minimálna Python závislosť potrebná na serverovej strane Raspberry Pi
+# pre verifikáciu postkvantového podpisu ML-DSA.
+pqcrypto>=0.4.0

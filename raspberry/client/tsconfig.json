@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // Frontend cieli na moderný prehliadač a aktuálny štandard JavaScriptu.
+    "target": "ES2022",
+
+    // React klient potrebuje typy pre browser API aj pre štandardné
+    // objekty JavaScriptu.
+    "lib": ["ES2022", "DOM"],
+
+    // TSX súbory sa kompilujú cez moderný React JSX runtime.
+    "jsx": "react-jsx",
+
+    // Node typy sú potrebné najmä pre Vite konfiguráciu a build nástroje.
+    "types": ["node"],
+
+    // Aj sieťová klientska vetva je vedená ako ESM projekt.
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+
+    // Prísny režim pomáha zachytiť chyby ešte pred spustením aplikácie.
+    "strict": true,
+
+    // Typové problémy v externých závislostiach nechceme miešať s problémami
+    // vlastného zdrojového kódu.
+    "skipLibCheck": true
+  }
+}

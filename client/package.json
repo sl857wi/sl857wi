@@ -1,0 +1,25 @@
+{
+  "name": "opaque-client",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@serenity-kit/opaque": "^0.7.0",
+    "jwt-decode": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.9.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "@types/react": "^18.3.7",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "^5.6.3",
+    "vite": "^7.1.10"
+  }
+}

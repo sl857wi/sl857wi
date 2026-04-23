@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // Backend cieli na moderné JavaScript prostredie v Node.js.
+    "target": "ES2022",
+
+    // Projekt je písaný ako ESM modulový systém.
+    "module": "ES2022",
+
+    // Bundler režim dobre spolupracuje s aktuálnym toolchainom projektu.
+    "moduleResolution": "Bundler",
+
+    // Prísne typovanie pomáha držať backendový kód bezpečnejší a čitateľnejší.
+    "strict": true,
+
+    // Uľahčí prácu s CommonJS balíkmi, ktoré backend používa.
+    "esModuleInterop": true,
+
+    // Typové chyby v externých knižniciach nechceme miešať s chybami vlastného kódu.
+    "skipLibCheck": true,
+
+    // Backend potrebuje Node.js typy napríklad pre fs, path, process alebo Buffer.
+    "types": ["node"]
+  }
+}
